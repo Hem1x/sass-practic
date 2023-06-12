@@ -5,14 +5,38 @@
 
 .objects__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    @media (max-width: 1495px) {
+        justify-content: flex-end;
+    }
 }
 
 .objects__img {
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .objects__text {
+    // max-width: 693px;
+    width: 374px;
+    padding-left: 181px;
+    padding-right: 150px;
+    box-sizing: content-box;
+    
+    flex-shrink: 0;
+   
+    p + p {
+        margin-top: 20px;
+    }
+}
 
+.objects__title {
+    margin-bottom: 20px;
+}
+
+.objects__button {
+    margin-top: 40px
 }
