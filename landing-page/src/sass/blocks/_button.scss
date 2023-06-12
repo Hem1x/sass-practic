@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    height: 58px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border-radius: 29px;
+    background-color: $accent-color;
+
+    line-height: 58px;
+    font-weight: 700;
+    color: #fff;
+    transition: .2s;
+
+    &:hover {
+        transform: scale(1.02);
+        background-color: $accent-color-hover;
+    }
+}

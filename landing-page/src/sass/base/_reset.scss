@@ -24,6 +24,11 @@ input:focus, button:focus {
     outline: none;
 }
 
+button, input[type="submit"] {
+    cursor: pointer;
+    background: none;
+}
+
 ul, li {
     list-style: none;
 }

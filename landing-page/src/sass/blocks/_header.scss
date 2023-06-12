@@ -1,0 +1,33 @@
+.header {
+
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__text {
+    width: 465px;
+
+    .header__title {
+        margin-bottom: 25px;
+        margin-right: -160px;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 1.46;
+
+        position: relative;
+        z-index: 1;
+    }
+
+    p {
+        line-height: 1.6875;
+        margin-bottom: 1em;
+    }
+}
+
+.header__img img {
+    border-radius: 40px 40px 40px 0;
+}
