@@ -15,4 +15,30 @@
         transform: scale(1.02);
         background-color: $accent-color-hover;
     }
+
+    &--white {
+        position: relative;
+        padding-left: 50px;
+
+        background-color: white;
+        color: $text-color;
+
+        &:hover {
+            background-color: #323232;
+            color: white;
+        }
+
+        &::before {
+            position: absolute;
+            top: 24px;
+            left: 30px;
+    
+            content: '';
+            display: block;
+            width: 11px;
+            height: 12px;
+            background-image: url('./../../assets/icons/play.svg');
+            background-size: initial;
+        }
+    }
 }
